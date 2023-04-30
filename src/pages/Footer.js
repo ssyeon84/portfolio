@@ -33,7 +33,7 @@ function Footer() {
                 </div>
             </footer>
             <div className="copyright py-4 text-center text-white">
-                <div className="container"><small>Copyright © Your Website 2023</small></div>
+                <div className="container"><small>Copyright © SEO YEON, SONG 2023</small></div>
             </div>
         </Fragment>
     );
