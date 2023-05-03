@@ -12,20 +12,13 @@ function Portfolio() {
                     <div className="divider-custom-line" />
                 </div>
                 <div className="row justify-content-center">
-                    <div className="col-md-6 col-lg-4 mb-5">
+                    {/* 1라인 */}
+                    <div className="col-md-6 col-lg-4 mb-5 bg-secondary">
                     <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                         <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x" /></div>
                         </div>
-                        <img className="img-fluid" src="ASSETS/assets/img/portfolio/cabin.png" alt="..." />
-                    </div>
-                    </div>
-                    <div className="col-md-6 col-lg-4 mb-5">
-                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                        <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x" /></div>
-                        </div>
-                        <img className="img-fluid" src="ASSETS/assets/img/portfolio/cake.png" alt="..." />
+                        {/* <img className="img-fluid" src="ASSETS/assets/img/portfolio/episode.png" alt="episode" /> */}
                     </div>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-5">
@@ -33,31 +26,57 @@ function Portfolio() {
                         <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x" /></div>
                         </div>
-                        <img className="img-fluid" src="ASSETS/assets/img/portfolio/circus.png" alt="..." />
+                        <img className="img-fluid" src="ASSETS/assets/img/portfolio/buynow.png" alt="buynow" />
                     </div>
                     </div>
-                    <div className="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                    <div className="col-md-6 col-lg-4 mb-5">
+                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
                         <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x" /></div>
                         </div>
-                        <img className="img-fluid" src="ASSETS/assets/img/portfolio/game.png" alt="..." />
+                        <img className="img-fluid" src="ASSETS/assets/img/portfolio/salarying.png" alt="salarying" />
                     </div>
                     </div>
-                    <div className="col-md-6 col-lg-4 mb-5 mb-md-0">
-                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                        <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x" /></div>
-                        </div>
-                        <img className="img-fluid" src="ASSETS/assets/img/portfolio/safe.png" alt="..." />
-                    </div>
-                    </div>
-                    <div className="col-md-6 col-lg-4">
+                    {/* 2라인 */}
+                    <div className="col-md-6 col-lg-4 mb-5">
                     <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
                         <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x" /></div>
                         </div>
-                        <img className="img-fluid" src="ASSETS/assets/img/portfolio/submarine.png" alt="..." />
+                        <img className="img-fluid" src="ASSETS/assets/img/portfolio/nexus.png" alt="nexus" />
+                    </div>
+                    </div>
+                    <div className="col-md-6 col-lg-4 mb-5">
+                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                        <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x" /></div>
+                        </div>
+                        <img className="img-fluid" src="ASSETS/assets/img/portfolio/skon.png" alt="skon" />
+                    </div>
+                    </div>
+                    <div className="col-md-6 col-lg-4 mb-5">
+                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                        <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x" /></div>
+                        </div>
+                        <img className="img-fluid" src="ASSETS/assets/img/portfolio/mocean.png" alt="mocean" />
+                    </div>
+                    </div>
+                    {/* 3라인 */}
+                    <div className="col-md-6 col-lg-4">
+                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
+                        <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x" /></div>
+                        </div>
+                        <img className="img-fluid" src="ASSETS/assets/img/portfolio/samsung.jpg" alt="samsung.jpg" />
+                    </div>
+                    </div>
+                    <div className="col-md-6 col-lg-4">
+                    <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal8">
+                        <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x" /></div>
+                        </div>
+                        <img className="img-fluid" src="ASSETS/assets/img/portfolio/electronic.jpg" alt="electronic" />
                     </div>
                     </div>
                 </div>

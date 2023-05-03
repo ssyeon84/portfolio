@@ -20,10 +20,12 @@ function About() {
                     </div>
                     <div className="col-lg-6 me-auto">
                             <p className="lead">
-                                <h4>👋안녕하세요.<br/>웹 앱 개발자 송서연 입니다!</h4>
+                                <h4>안녕하세요.<br/>웹 앱 개발자 송서연 입니다!</h4>
                                 끈기와 열정으로 똘똘 뭉친 웹 앱 서비스 개발자 송서연 입니다.
                             </p>
-                            <p className="mb-3"/>
+                            <p className="mb-3">
+
+                            </p>
                             <h6>✏ 학력</h6>
                             <p className="lead2">
                                 <b>인천전문대학 컴퓨터정보과 졸업</b><br/>- 2008.03. ~ 2010.02 졸업
@@ -42,6 +44,12 @@ function About() {
                             </p>
                         
                     </div>
+                </div>
+                <div className="text-center mt-4">
+                    <Link className="btn btn-xl btn-outline-primary" to="/portfolio01">
+                    <i className="fas fa-download me-2" />
+                    Test Link
+                    </Link>
                 </div>
             </div>
         </section>

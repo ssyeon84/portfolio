@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import Menu from "./Menu";
 import Footer from "./Footer";
-import { Link } from "react-router-dom";
 import Portfolio from "./Portfolio";
 import About from "./About";
 import Stacks from "./Stacks";
