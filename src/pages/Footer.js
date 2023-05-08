@@ -7,26 +7,21 @@ function Footer() {
                 <div className="container">
                 <div className="row">
                     <div className="col-lg-4 mb-5 mb-lg-0">
-                    <h4 className="text-uppercase mb-4">Location</h4>
+                    <h4 className="text-uppercase mb-4">Email</h4>
                     <p className="lead mb-0">
-                        2215 John Daniel Drive
-                        <br />
-                        Clark, MO 65243
+                        mashimagomi@gmail.com
                     </p>
                     </div>
                     <div className="col-lg-4 mb-5 mb-lg-0">
-                    <h4 className="text-uppercase mb-4">Around the Web</h4>
-                    <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-facebook-f" /></a>
-                    <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-twitter" /></a>
-                    <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-linkedin-in" /></a>
-                    <a className="btn btn-outline-light btn-social mx-1" href="#!"><i className="fab fa-fw fa-dribbble" /></a>
+                    <h4 className="text-uppercase mb-4">Blog</h4>
+                    <p className="lead mb-0">
+                        <a href="https://sweetsource.tistory.com/">https://sweetsource.tistory.com/</a>
+                    </p>
                     </div>
                     <div className="col-lg-4">
-                    <h4 className="text-uppercase mb-4">About Freelancer</h4>
+                    <h4 className="text-uppercase mb-4">Git</h4>
                     <p className="lead mb-0">
-                        Freelance is a free to use, MIT licensed Bootstrap theme created by
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>
-                        .
+                        <a href="https://github.com/ssyeon84">https://github.com/ssyeon84</a>
                     </p>
                     </div>
                 </div>

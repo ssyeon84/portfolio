@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
 
 function About() {
     return (
@@ -44,12 +43,6 @@ function About() {
                             </p>
                         
                     </div>
-                </div>
-                <div className="text-center mt-4">
-                    <Link className="btn btn-xl btn-outline-primary" to="/portfolio01">
-                    <i className="fas fa-download me-2" />
-                    Test Link
-                    </Link>
                 </div>
             </div>
         </section>
