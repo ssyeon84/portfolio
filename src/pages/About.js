@@ -14,13 +14,12 @@ function About() {
                 <div className="row">
                     <div className="col-lg-4 ms-auto masthead2">
                         <p className="lead">
-                        <img className="masthead-avatar2 mb-5" src="ASSETS/assets/img/ssy.jpg" alt="profile" />
+                        <img className="masthead-avatar2 mb-5" src="assets/assets/img/ssy.jpg" alt="profile" />
                         </p>
                     </div>
                     <div className="col-lg-6 me-auto">
                             <p className="lead">
                                 <h4>안녕하세요.<br/>웹 앱 개발자 송서연 입니다!</h4>
-                                끈기와 열정으로 똘똘 뭉친 웹 앱 서비스 개발자 송서연 입니다.
                             </p>
                             <p className="mb-3">
 
